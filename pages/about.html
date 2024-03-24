@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TBC</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head> 
+
+<body>
+<section class="subheader">
+   <nav>
+      <a href="TBC.html"><img src="images/mylogo6.svg" width="100px" alt="image on screen"></a>
+      <div class="nav-links" id="navlinks">
+         <i class="fa fa-times" onclick="hideMenu()"></i>
+         <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+         </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+   </nav>
+   
+   <h1>About Us</h1>
+
+</section>
+
+<!-- about us content-->
+
+<section class="about">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>Top Designing and Branding Platform</h1>
+            <p>Get offered world class designs to suit your taste and brand name, Crafted with extreme care by our team of professional designers that brings the best of your imaginations to life. Here at TBC Concepts, we commit ourselves to rendering the best services to our most esteemed clients.</p>
+            <a href="" class="visit visit-about">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg" alt="">
+            
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+<!-----Javascript for Menu toggle---->
+
+
+<script>
+    
+   var navlinks = document.getElementById("navlinks");
+   function showMenu(){
+      navlinks.style.right = "0"
+   }
+   function hideMenu(){
+      navlinks.style.right = "-200px"
+   }
+</script>
+
+
+
+
+
+
+
+
+<!----- Footer ---->
+
+
+
+<section class="footer">
+
+   <h4>ABOUT US</h4>
+   <p>Reach us via any of our ever active social media handles. We are ever ready to serve you to your ultimate satisfaction.</p>
+
+   <div class="icons">
+      <a href="https://www.facebook.com/thebenjaminkadiri?mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a>
+      
+      <a href="https://www.instagram.com/thebenjaminkadiri?igsh=aGV6OXlsMnAyaDI5"><i class="fa fa-instagram"></i></a>
+      
+      <a href="https://x.com/theben_concepts?t=oh8VHih6ZMuk8In8lyEJ9A&s=09"><i class="fa fa-twitter"></i></a>
+      
+      <i class="fa fa-linkedin"></i>
+      
+      <a href="https://wa.me/message/BZCSPSSJHCY3L1"> <i class="fa fa-whatsapp"></i></a>
+     
+   </div>
+   <p>Made with love by Ben  <i class="fa fa-hand-peace-o"></i></p>
+
+</section>
+
+
+</body>
+
+</html>
