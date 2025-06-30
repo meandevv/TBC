@@ -21,9 +21,7 @@ nav{
    position: fixed;
    top: 0;
    z-index: 1;
-   background-image: linear-gradient(rgba(110, 107, 241, 0.26),rgba(110, 107, 241, 0.26)),url(images/R.jpeg);
-   background-position: center;
-   background-size: cover;
+   background: #f44336;
 }
 nav image{
    width: 150px;
