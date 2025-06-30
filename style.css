@@ -13,6 +13,7 @@
   position: relative;
 }
 nav{
+   width: 100%;
    display: flex;
    padding: 2% 6%;
    justify-content: space-between;
@@ -20,6 +21,9 @@ nav{
    position: fixed;
    top: 0;
    z-index: 1;
+   background-image: linear-gradient(rgba(110, 107, 241, 0.26),rgba(110, 107, 241, 0.26)),url(images/R.jpeg);
+   background-position: center;
+   background-size: cover;
 }
 nav image{
    width: 150px;
